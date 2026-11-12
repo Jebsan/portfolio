@@ -57,20 +57,20 @@ export default defineContentConfig({
             })
           }))
         }),
+        education: createBaseSchema().extend({
+          items: z.array(z.object({
+            date: z.date(),
+            degree: z.string(),
+            school: z.object({
+              name: z.string(),
+              url: z.string(),
+              logo: z.string().editor({ input: 'icon' }),
+              color: z.string()
+            })
+          }))
+        }),
         testimonials: z.array(createTestimonialSchema()),
-        blog: createBaseSchema(),
-        faq: createBaseSchema().extend({
-          categories: z.array(
-            z.object({
-              title: z.string().nonempty(),
-              questions: z.array(
-                z.object({
-                  label: z.string().nonempty(),
-                  content: z.string().nonempty()
-                })
-              )
-            }))
-        })
+        blog: createBaseSchema()
       })
     }),
     projects: defineCollection({
@@ -103,20 +103,6 @@ export default defineContentConfig({
       ],
       schema: z.object({
         links: z.array(createButtonSchema())
-      })
-    }),
-    speaking: defineCollection({
-      type: 'page',
-      source: 'speaking.yml',
-      schema: z.object({
-        links: z.array(createButtonSchema()),
-        events: z.array(z.object({
-          category: z.enum(['Live talk', 'Podcast', 'Conference']),
-          title: z.string(),
-          date: z.date(),
-          location: z.string(),
-          url: z.string().optional()
-        }))
       })
     }),
     about: defineCollection({

@@ -1,8 +1,9 @@
 seo:
-  title: "Jens Viberg - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Jens Viberg, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Jens Viberg UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "Jens Viberg - Computer Science & Software Engineer"
+  description: "Welcome to my portfolio! I'm Jens Viberg, a Computer Science & Software Engineer based in Linköping, Sweden."
+title: "Hello, I'm Jens a Computer Science & Software Engineering Student"
+description: "I specialice in embedded, agent and autonomous systems. Based in Linköping, bringing ideas to life through code and creativity."
+
 hero:
   links:
     - label: "Use this template"
@@ -27,14 +28,18 @@ hero:
       alt: Random Image 8
     - src: /hero/random-9.avif
       alt: Random Image 9
+
 about:
-  title: "About Me"
+  title: "About Me:"
   description: |
+    
     As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
     My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+
 experience:
-  title: Work Experience
+  title: "Experience:"
   items:
+
     - position: "Brand Designer at"
       date: "2023 - Present"
       company:
@@ -42,6 +47,7 @@ experience:
         logo: "i-simple-icons-nuxtdotjs"
         url: "https://nuxt.com"
         color: "#00DC82"
+
     - position: "Assets Designer at"
       date: "2022 - 2023"
       company:
@@ -49,6 +55,7 @@ experience:
         logo: "i-simple-icons-raycast"
         url: "https://raycast.com"
         color: "#FF6363"
+
     - position: "Senior UX/UI Designer at"
       date: "2020 - 2021"
       company:
@@ -56,6 +63,18 @@ experience:
         logo: "i-simple-icons-linear"
         url: "https://linear.app"
         color: "#5E6AD2"
+
+education:
+  title: "Education:"
+  items:
+    
+    - degree: "M.Sc. in Computer Science & Software Engineering"
+      date: "2022 - Present"
+      school:
+        logo: "/images/liu.jpg"
+        url: "https://www.linkoping.se"
+        color: "#000000"
+
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
@@ -81,40 +100,3 @@ testimonials:
 blog:
   title: "Latest Articles"
   description: "Some of my recent thoughts"
-faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
-  categories:
-    - title: Services & Process
-      questions:
-        - label: What services do you offer?
-          content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
-          content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
-          content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
-      questions:
-        - label: How much does a project typically cost?
-          content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
-          content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
-          content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
-          content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
-      questions:
-        - label: What do you enjoy most about your work?
-          content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
-          content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
